@@ -1,0 +1,36 @@
+.product {
+    display: flex;
+    padding: .5rem;
+    margin: .5rem;
+    align-items: center;
+}
+.product-img {
+    width: 10rem;
+    height: 10rem;
+}
+.product-img > img {
+    width: 100%;
+    height: 100%;
+}
+.product-content {
+    margin-left: 1rem;
+}
+.product-name {
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.product-description {
+    font-size: .8rem;
+}
+.product-price {
+    font-weight: bold;
+}
+.product-price::before {
+    content: "Rs.";
+}
+.product-price::after {
+    content: "/-";
+}
+
